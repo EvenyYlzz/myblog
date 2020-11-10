@@ -179,6 +179,7 @@ callback({ name: "zhangsan" })
 cookie
 - ①本身用于浏览器和server通讯
 - ②被借用到本地存储，可通过`document.cookie=" "`设置
+
 缺点：
 - ①存储大小为最大4KB
 - ②Http请求时需要发送到服务端，增加请求数据量
